@@ -10,6 +10,7 @@ import { FAQSection } from "@/components/faq-section"
 import { PricingSection } from "@/components/pricing-section"
 import { Footer } from "@/components/footer"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -59,8 +60,15 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <a href="/" className="text-xl font-bold text-foreground">
-              Unifyed
+            <a href="/" className="flex items-center">
+              <Image
+                src="/unifyed-logo.svg"
+                alt="Unifyed"
+                width={140}
+                height={48}
+                className="h-12 w-auto"
+                priority
+              />
             </a>
 
             {/* Desktop Nav */}
