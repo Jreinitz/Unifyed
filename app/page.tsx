@@ -87,7 +87,7 @@ export default function Home() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-4">
               <a
-                href="/login"
+                href="https://app.unifyed.io"
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 Log In
@@ -127,7 +127,7 @@ export default function Home() {
                 ))}
                 <div className="border-t border-border mt-2 pt-4 flex flex-col gap-2">
                   <a
-                    href="/login"
+                    href="https://app.unifyed.io"
                     className="px-4 py-3 text-muted-foreground font-medium rounded-lg hover:bg-secondary transition-colors"
                   >
                     Log In
